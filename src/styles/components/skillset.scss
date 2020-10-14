@@ -26,6 +26,19 @@
     justify-content: space-around;
     li{
         text-align: center;
+        transition: .2s ease;
+        &:hover  .skilSet__box-list__content{
+            color: black;
+            opacity: 1;
+        }
+
+        &:hover .skillSet__box-list__title{
+            color: black;
+        }
+
+        &:hover{
+            transform: translateY(-20px);
+        }
     }
 }
 
@@ -33,9 +46,7 @@
     font-size: 2rem;
     color: white;
     -webkit-text-stroke: 1px black;
-    &:hover ~ .skilSet__box-list__content{
-        opacity: 1;
-    }
+    transition: color .3s ease-in;
 }
 
 .skilSet__box-list__content{

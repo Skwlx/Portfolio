@@ -1,10 +1,15 @@
 import React from 'react';
-import Background from "./components/background"
+import About from './components/about';
+import Background from "./components/background";
+import Jumbo from './components/jumbo';
+import "./styles/main.scss";
 
 const App = () => {
   return (
     <div className="App">
-    <Background />
+    <Background/>
+    <Jumbo />
+    <About />
     </div>
   );
 }

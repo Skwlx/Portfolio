@@ -13,15 +13,18 @@ const Background = () => {
         canvasContainer.appendChild( renderer.domElement );
         const geometry = new THREE.DodecahedronBufferGeometry( 1, 5 );
         const material = new THREE.MeshBasicMaterial( { color: 0x00000, wireframe: true } );
-        const cube = new THREE.Mesh( geometry, material );
-        scene.add( cube );
+        const circle = new THREE.Mesh( geometry, material );
+        scene.add( circle );
         camera.position.z = 5;
+        
         const animate = () => {
           requestAnimationFrame( animate );
-          cube.rotation.y += 0.01;
-          cube.rotation.x += 0.001
+          circle.rotation.y += 0.01;
+          circle.rotation.x += 0.001;
           renderer.render( scene, camera );
         };
+
+
         const handleResize = () => {
             const { innerWidth, innerHeight } = window;
             renderer.setSize(innerWidth, innerHeight);

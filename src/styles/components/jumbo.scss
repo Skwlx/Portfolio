@@ -1,0 +1,20 @@
+.jumbotron{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.jumbotron__title{
+    margin-left: 3rem;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+}

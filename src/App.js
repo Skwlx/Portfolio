@@ -1,8 +1,10 @@
 import React from 'react';
+import Background from "./components/background"
 
-function App() {
+const App = () => {
   return (
     <div className="App">
+    <Background />
     </div>
   );
 }

@@ -16,6 +16,7 @@ const Background = () => {
         const circle = new THREE.Mesh( geometry, material );
         scene.add( circle );
         camera.position.z = 5;
+
         
         const animate = () => {
           requestAnimationFrame( animate );
@@ -24,14 +25,13 @@ const Background = () => {
           renderer.render( scene, camera );
         };
 
-
         const handleResize = () => {
             const { innerWidth, innerHeight } = window;
             renderer.setSize(innerWidth, innerHeight);
             camera.aspect = innerWidth / innerHeight;
             camera.updateProjectionMatrix();
         }
-        window.addEventListener('resize', handleResize)
+        window.addEventListener('resize', handleResize);
         animate();
       })
       return(

@@ -2,6 +2,7 @@ import React from 'react';
 import About from './components/about';
 import Background from "./components/background";
 import Jumbo from './components/jumbo';
+import SkillSet from './components/skillset';
 import "./styles/main.scss";
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
     <div className="App">
     <Background/>
     <Jumbo />
+    <SkillSet />
     <About />
     </div>
   );

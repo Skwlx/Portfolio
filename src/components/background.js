@@ -8,10 +8,10 @@ const Background = () => {
         const canvasContainer = document.querySelector('.background__canvas');
         const scene = new THREE.Scene();
         let camera = new THREE.PerspectiveCamera( 65, window.innerWidth/window.innerHeight, 0.1, 1000 );
-        let renderer = new THREE.WebGLRenderer({ alpha: true });
+        let renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
         renderer.setSize( window.innerWidth, window.innerHeight );
         canvasContainer.appendChild( renderer.domElement );
-        const geometry = new THREE.DodecahedronBufferGeometry( 1, 5 );
+        const geometry = new THREE.DodecahedronBufferGeometry( 1, 4 );
         const material = new THREE.MeshBasicMaterial( { color: 0x00000, wireframe: true } );
         const circle = new THREE.Mesh( geometry, material );
         scene.add( circle );
@@ -20,10 +20,20 @@ const Background = () => {
         
         const animate = () => {
           requestAnimationFrame( animate );
-          circle.rotation.y += 0.01;
+          circle.rotation.y += 0.004;
           circle.rotation.x += 0.001;
           renderer.render( scene, camera );
         };
+
+        const scale = () => {
+          let scaleVal = (window.scrollY + 100 ) / 100;
+          circle.scale.x = scaleVal;
+          circle.scale.y = scaleVal;
+          circle.scale.z = scaleVal;
+          if(circle.scale.x > 4){
+            scaleVal =  (window.scrollY + 100 ) / 10000000;
+          }
+        }
 
         const handleResize = () => {
             const { innerWidth, innerHeight } = window;
@@ -32,6 +42,7 @@ const Background = () => {
             camera.updateProjectionMatrix();
         }
         window.addEventListener('resize', handleResize);
+        window.addEventListener('scroll', ()=>{ scale() });
         animate();
       })
       return(

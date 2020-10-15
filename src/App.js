@@ -10,8 +10,8 @@ const App = () => {
     <div className="App">
     <Background/>
     <Jumbo />
-    <SkillSet />
     <About />
+    <SkillSet />
     </div>
   );
 }

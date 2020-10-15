@@ -1,3 +1,12 @@
+import gymImage from "../images/gym.png";
+import bookImage from "../images/book.png";
+import restaurantImage from "../images/restaurant.png";
+import carPickerImage from "../images/picker.png";
+import flappitImage from "../images/flapit.png";
+import tictactoeImage from "../images/tictactoe.png";
+import exchangeImage from "../images/exchange.png";
+
+
 export const upSkills = {
     skills: [
         {
@@ -48,6 +57,63 @@ export const downSkills = {
     ]
 }
 
-export const Projects = {
-    
+export const projectsData = {
+    projects: [
+        {
+            title: "Gym Instructor",
+            description: "Template webiste made for practice.",
+            stack: "GatsbyJS, GraphQl, SCSS",
+            image: gymImage,
+            code: "https://github.com/Skwlx/GymInstructorSite",
+            live: "https://gyminstructor.netlify.app"
+        },
+        {
+            title: "BookApi",
+            description: "Website made for searching books.",
+            stack: "React, Google Books API, SCSS",
+            image: bookImage,
+            code: "https://github.com/Skwlx/BookApi",
+            live: "https://skwlx.github.io/BookApi/"
+        },
+        {
+            title: "Restaurant site",
+            description: "I love mexican food so i made a website about mexican restaurant.",
+            stack: "React, SCSS",
+            image: restaurantImage,
+            code: "https://github.com/Skwlx/RestaurantSite",
+            live: "https://skwlx.github.io/RestaurantSite/"
+        },
+        {
+            title: "Car picker",
+            description: "App made for recrutation",
+            stack: "React, Redux, SCSS",
+            image: carPickerImage,
+            code: "https://github.com/Skwlx/CarPicker",
+            live: "https://car-picker.netlify.app"
+        },
+        {
+            title: "Flappit",
+            description: "My friend made this game, so I made a website for him (Just for fun project).",
+            stack: "Html, CSS",
+            image: flappitImage,
+            code: "https://github.com/Skwlx/Flappit",
+            live: "https://snakerrek.github.io/Flappit/"
+        },
+        {
+            title: "Tictactoe",
+            description: "My first ever project made, simple game.",
+            stack: "Html, CSS, Javascript",
+            image: tictactoeImage,
+            code: "https://github.com/Skwlx/Tictactoe",
+            live: "https://skwlx.github.io/Tictactoe/"
+        },
+        {
+            title: "ExchangeApp",
+            description: "Very simple API app.",
+            stack: "Html, SCSS, Javascript",
+            image: exchangeImage,
+            code: "https://github.com/Skwlx/ExchangeApp",
+            live: "https://skwlx.github.io/ExchangeApp/"
+        },
+    ]
 }

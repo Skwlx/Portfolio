@@ -10,7 +10,6 @@ import "../styles/components/skillset.scss";
 const SkillSet = () => {
     useEffect(() =>{
         AOS.init({
-            once: true,
             offset: -10
         })
     })

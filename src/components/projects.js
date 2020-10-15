@@ -1,8 +1,15 @@
 import React from "react";
 
+import { projectsData } from "./data";
+
+import "../styles/components/projects.scss";
+
 const Projects = () => {
     return(
-        <div>
+        <div className="projects">
+            {projectsData.projects.map(project =>(
+                <img src={project.image} />
+            ))}
         </div>
     )
 }

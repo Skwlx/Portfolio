@@ -2,12 +2,33 @@
 
 @import "./variables.scss";
 
+// PROJECTS ANIMATIONS
+
+@keyframes appearSlide{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes appearText{
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 // PROJECTS STYLES
 
 .projects{
     width: 100%;
-    min-height: 100vh;
     position: relative;
+    padding-top: 50px;
     &::before{
         content: "PROJECTS";
         font-size: 15rem;
@@ -20,4 +41,48 @@
         color: $baseColor;
         text-shadow: 3px 2px 3px $secondColor;
     }
+}
+
+.projects__box{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alice-carousel__stage{
+    li.__active{
+        animation: appearSlide .4s ease-in-out;
+        .projects__box__content-title{
+            animation: appearText .3s .3s ease-in forwards;
+        }
+        .projects__box__content-text{
+            animation: appearText .5s .3s ease-in forwards;
+        }
+    }
+}
+
+.projects__box__content{
+    text-align: center;
+}
+
+.projects__box__content-image{
+    border-radius: 30px;
+    box-shadow: 1px 1px 9px $secondColor;
+}
+
+.projects__box__content-title{
+    margin-top: 30px;
+    color: $baseColor;
+    text-shadow: $stroke;
+    font-size: 2rem;
+    opacity: 0;
+}
+
+.projects__box__content-text{
+    opacity: 0;
+    color: $baseColor;
+    text-shadow: $stroke;
+    font-size: 1.4rem;
 }

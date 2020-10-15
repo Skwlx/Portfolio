@@ -109,7 +109,7 @@ export const projectsData = {
         },
         {
             title: "ExchangeApp",
-            description: "Very simple API app.",
+            description: "Very simple API app, let's you check the currency rate.",
             stack: "Html, SCSS, Javascript",
             image: exchangeImage,
             code: "https://github.com/Skwlx/ExchangeApp",

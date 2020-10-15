@@ -8882,6 +8882,13 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-alice-carousel@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-alice-carousel/-/react-alice-carousel-2.0.1.tgz#3da18b5ed07ace490be675d6265aa197aacc92c2"
+  integrity sha512-1Jb4CYEpQqe2dO/deHpUpqI05nuEdpfnhkC/p0cze799GqQ19kfZjgSPJv/sbE3tarisBNtaKQB56INdMwBpxg==
+  dependencies:
+    vanilla-swipe "^2.2.0"
+
 react-app-polyfill@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-1.0.6.tgz#890f8d7f2842ce6073f030b117de9130a5f385f0"
@@ -10790,6 +10797,11 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+vanilla-swipe@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/vanilla-swipe/-/vanilla-swipe-2.2.0.tgz#65c2c91f91af61de6aecfc4dfec662841f5f15b7"
+  integrity sha512-iNXEIpPTe2KMOzHyi0lKP9rSSHry+SoHAc0aBHH4xcJBjKX5cnw6DcxgT3OoWsqxHQ6O1wmG4PAG9BOzzR5jGQ==
 
 vary@~1.1.2:
   version "1.1.2"

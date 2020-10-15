@@ -50,6 +50,7 @@
 
         &:hover .skillSet__box-list__title{
             color: $secondColor;
+            text-shadow: none;
         }
 
         &:hover .skillSet__box-list__title::after{
@@ -65,7 +66,7 @@
 .skillSet__box-list__title{
     font-size: 2rem;
     color: $baseColor;
-    -webkit-text-stroke: 1px $secondColor;
+    text-shadow: $stroke;
     position: relative;
     transition: .4s ease-in-out;
     &::after{

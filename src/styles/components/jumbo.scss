@@ -18,10 +18,10 @@
     color: $baseColor;
     h1{
         font-size: 4rem;
-        -webkit-text-stroke: 2px $secondColor;
+        text-shadow: $stroke;
     }
     h2{
         font-size: 2rem;
-        -webkit-text-stroke: 1px $secondColor;
+        text-shadow: $stroke;
     }
 }

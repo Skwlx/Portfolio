@@ -35,8 +35,7 @@
     padding-top: 2rem;
     font-size: 2rem;
     color: $baseColor;
-    text-shadow: 1px 1px 2px $secondColor;
-    -webkit-text-stroke: 1px $secondColor;
+    text-shadow: $stroke;
 }
 
 .about__content-text{

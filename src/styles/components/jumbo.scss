@@ -1,34 +1,23 @@
 // IMPORTS
 
 @import "../variables.scss";
-
-// JUMBO ANIMATIONS
-
-@keyframes appearText{
-    0%{
-        transform: translateY(-10px);
-    }
-    100%{
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
+@import "../animations/appearText.scss";
 
 // JUMBO STYLES
 
 .jumbotron{
     width: 100%;
     min-height: 100vh;
+    position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    position: relative;
 }
 
 
 .jumbotron__title{
-    margin-left: 3rem;
     color: $baseColor;
+    margin-left: 3rem;
 }
 
 .jumbotron__title-name{

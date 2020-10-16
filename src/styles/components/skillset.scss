@@ -25,13 +25,14 @@
     &::after{
         content: "SKILLS";
         font-size: 15rem;
+        text-shadow: 3px 2px 3px $secondColor;
+        color: $baseColor;
         position: absolute;
+        opacity: 0.5;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        opacity: 0.5;
-        color: $baseColor;
-        text-shadow: 3px 2px 3px $secondColor;
+        z-index: -1;
     }
 }
 

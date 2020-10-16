@@ -1,27 +1,8 @@
 // IMPORTS
 
 @import "../variables.scss";
-
-// PROJECTS ANIMATIONS
-
-@keyframes appearSlide{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-@keyframes appearText{
-    0%{
-        transform: translateY(-10px);
-    }
-    100%{
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
+@import "../animations/appearText.scss";
+@import "../animations//appearSlide.scss";
 
 // PROJECTS STYLES
 
@@ -32,14 +13,14 @@
     &::before{
         content: "PROJECTS";
         font-size: 15rem;
+        text-shadow: 3px 2px 3px $secondColor;
+        color: $baseColor;
         position: absolute;
+        opacity: 0.5;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: -1;
-        opacity: 0.5;
-        color: $baseColor;
-        text-shadow: 3px 2px 3px $secondColor;
     }
 }
 
@@ -82,23 +63,23 @@
 
 .projects__box__content-title{
     margin-top: 30px;
+    opacity: 0;
     color: $baseColor;
     text-shadow: $stroke;
     font-size: 2rem;
-    opacity: 0;
 }
 
 .projects__box__content-text{
     color: $baseColor;
+    opacity: 0;
     text-shadow: $stroke;
     font-size: 1.4rem;
-    opacity: 0;
 }
 
 .projects__box__content-icon{
     margin: 5px;
-    font-size: 1.5rem;
     opacity: 0;
+    font-size: 1.5rem;
     color: $secondColor;
     text-shadow: $stroke;
     transition: .2s ease;

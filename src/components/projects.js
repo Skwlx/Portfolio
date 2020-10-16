@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import Display from "../animations/displayAndHide";
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
@@ -14,8 +14,13 @@ import "../styles/components/projects.scss";
 
 const Projects = () => {
 
+    useEffect(() =>{
+        Display(".hidden-project",["MY", "PROJECTS"]);
+    })
+
     return(
         <div className="projects">
+            <span className="hidden-text hidden-project"></span>
             <div className="projects__box">
             <AliceCarousel 
                 animationType={"fadeout"}

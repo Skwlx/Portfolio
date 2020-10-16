@@ -20,24 +20,24 @@
     &::before{
         content: "ABOUT";
         font-size: 15rem;
+        text-shadow: 3px 2px 3px $secondColor;
+        color: $baseColor;
         position: absolute;
+        opacity: 0.5;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: -1;
-        opacity: 0.5;
-        color: $baseColor;
-        text-shadow: 3px 2px 3px $secondColor;
     }
 }
 
 .about__content{
     min-height: 100vh;
+    padding-bottom: 50px;
     display: flex;
+    text-align: center;
     justify-content: space-between;
     flex-direction: column;
-    text-align: center;
-    padding-bottom: 50px;
 }
 
 .about__content-title{
@@ -50,12 +50,12 @@
 .about__content-text{
     width: 400px;
     height: 90vh;
+    font-size: 1.2rem;
     margin: 0 auto;
-    text-align: center;
     display: flex;
+    text-align: center;
     justify-content: space-between;
     flex-direction: column;
-    font-size: 1.2rem;
     ul{
         list-style: none;
     }

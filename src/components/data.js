@@ -85,7 +85,7 @@ export const projectsData = {
         },
         {
             title: "Car picker",
-            description: "App made for recrutation",
+            description: "App made for recrutation process.",
             stack: "React, Redux, SCSS",
             image: carPickerImage,
             code: "https://github.com/Skwlx/CarPicker",

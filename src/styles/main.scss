@@ -1,6 +1,9 @@
+@import "../styles/variables.scss";
+
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 *{
     font-family: sans-serif;
@@ -12,4 +15,14 @@ ul{
 h1,h2,h3,h4,h5 {
     margin: 0;
     padding: 0;
+}
+// SPECIAL CLASS
+.hidden-text{
+    position: absolute;
+    font-size: 4rem;
+    animation: hiddenPlay 3s ease infinite;
+    color: $baseColor;
+    text-shadow: 3px 2px 3px $secondColor;
+    z-index: -2;
+    opacity: 0.5;
 }

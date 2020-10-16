@@ -41,6 +41,7 @@ const Background = () => {
             camera.aspect = innerWidth / innerHeight;
             camera.updateProjectionMatrix();
         }
+
         window.addEventListener('resize', handleResize);
         window.addEventListener('scroll', ()=>{ scale() });
         animate();

@@ -1,6 +1,18 @@
 // IMPORTS
 
-@import "./variables.scss";
+@import "../variables.scss";
+
+// JUMBO ANIMATIONS
+
+@keyframes appearText{
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 // JUMBO STYLES
 
@@ -13,15 +25,22 @@
     position: relative;
 }
 
+
 .jumbotron__title{
     margin-left: 3rem;
     color: $baseColor;
-    h1{
-        font-size: 4rem;
-        text-shadow: $stroke;
-    }
-    h2{
-        font-size: 2rem;
-        text-shadow: $stroke;
-    }
+}
+
+.jumbotron__title-name{
+    font-size: 4rem;
+    text-shadow: $stroke;
+    opacity: 0;
+    animation: appearText .3s ease forwards;
+}
+
+.jumbotron__title-seniority{
+    font-size: 2rem;
+    text-shadow: $stroke;
+    opacity: 0;
+    animation: appearText .3s .3s ease forwards;
 }

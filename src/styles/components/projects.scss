@@ -1,6 +1,6 @@
 // IMPORTS
 
-@import "./variables.scss";
+@import "../variables.scss";
 
 // PROJECTS ANIMATIONS
 
@@ -53,12 +53,15 @@
 
 .alice-carousel__stage{
     li.__active{
-        animation: appearSlide .4s ease-in-out;
+        animation: appearSlide 1s ease-in-out;
         .projects__box__content-title{
             animation: appearText .3s .3s ease-in forwards;
         }
         .projects__box__content-text{
             animation: appearText .5s .3s ease-in forwards;
+        }
+        .projects__box__content-icon{
+            animation: appearText .3s .6s ease-in forwards;
         }
     }
 }
@@ -68,8 +71,13 @@
 }
 
 .projects__box__content-image{
+    border: 2px solid $secondColor;
     border-radius: 30px;
-    box-shadow: 1px 1px 9px $secondColor;
+    transition: .6s ease;
+    filter: grayscale(100%);
+    &:hover{
+        filter: none;
+    }
 }
 
 .projects__box__content-title{
@@ -81,8 +89,23 @@
 }
 
 .projects__box__content-text{
-    opacity: 0;
     color: $baseColor;
     text-shadow: $stroke;
     font-size: 1.4rem;
+    opacity: 0;
+}
+
+.projects__box__content-icon{
+    margin: 5px;
+    font-size: 1.5rem;
+    opacity: 0;
+    color: $secondColor;
+    text-shadow: $stroke;
+    transition: .2s ease;
+    &:visited{
+        color: $secondColor;
+    }
+    &:hover{
+        color: darken($baseColor, 20%);
+    }
 }

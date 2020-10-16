@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Display from "../animations/displayAndHide";
 import "../styles/components/about.scss";
 
 const About = () => {
+
+    useEffect(() => {
+        Display(".hidden-about",["ABOUT","ME"]);
+    })
+
     return(
         <div className="about">
+            <span className="hidden-text hidden-about"></span>
             <div className="about__content">
                 <div className="about__content-title">
                     <h2>Hi, my name is Paweł</h2>

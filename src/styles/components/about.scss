@@ -1,8 +1,17 @@
 // IMPORTS
 
-@import "./variables.scss";
+@import "../variables.scss";
 
 // ABOUT STYLES
+
+@keyframes hiddenPlay {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 .about{
     width: 100%;

@@ -6,6 +6,16 @@ const About = () => {
 
     useEffect(() => {
         Display(".hidden-about",["ABOUT","ME"]);
+        const aboutContainer = document.querySelector('.about')
+        window.addEventListener("scroll", () => {
+            let triggerLine = aboutContainer.getBoundingClientRect().top;
+            if(triggerLine <= 200){
+                aboutContainer.style.opacity = 1;
+            }
+            else{
+                aboutContainer.style.opacity = 0;
+            }
+        });      
     })
 
     return(

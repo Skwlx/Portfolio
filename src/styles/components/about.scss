@@ -17,6 +17,8 @@
     width: 100%;
     min-height: 100vh;
     position: relative;
+    transition: opacity .3s ease-in;
+    opacity: 0;
     &::before{
         content: "ABOUT";
         font-size: 15rem;

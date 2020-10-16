@@ -18,6 +18,7 @@
 .jumbotron__title{
     color: $baseColor;
     margin-left: 3rem;
+    transition: opacity .3s ease;
 }
 
 .jumbotron__title-name{
@@ -27,7 +28,7 @@
     animation: appearText .3s ease forwards;
 }
 
-.jumbotron__title-seniority{
+.jumbotron__title-info{
     font-size: 2rem;
     text-shadow: $stroke;
     opacity: 0;

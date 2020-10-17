@@ -5,6 +5,7 @@ import Projects from './components/projects';
 import Jumbo from './components/jumbo';
 import SkillSet from './components/skillset';
 import "./styles/main.scss";
+import Footer from './components/footer';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <About />
     <SkillSet />
     <Projects />
+    <Footer />
     </div>
   );
 }

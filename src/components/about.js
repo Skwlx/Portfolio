@@ -27,10 +27,9 @@ const About = () => {
                 </div>
                 <div className="about__content-text">
                     <p>
-                    I started to learn the basics of the Front-end in 2018 and got so involved 
-                    that since then I spend every day learning.
-                    I'm an CS student at Politechnika Częstochowska, it's my 2nd year.
-                    I'm intrested in technology and programming. 
+                    I'm {new Date().getFullYear() - 1999} years old, and  
+                    I'm an CS student at Politechnika Częstochowska.
+                    I'm intrested in technology and programming.
                     </p>
                     <ul>
                     <li>My hobbies are: </li>

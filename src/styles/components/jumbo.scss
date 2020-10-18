@@ -25,12 +25,12 @@
     font-size: 4rem;
     text-shadow: $stroke;
     opacity: 0;
-    animation: appearText .3s ease forwards;
+    animation: appearText .3s cubic-bezier(.55,.06,.68,.19) forwards;
 }
 
 .jumbotron__title-info{
     font-size: 2rem;
     text-shadow: $stroke;
     opacity: 0;
-    animation: appearText .3s .3s ease forwards;
+    animation: appearText .3s .3s cubic-bezier(.55,.06,.68,.19) forwards;
 }

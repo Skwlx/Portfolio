@@ -27,14 +27,14 @@ const About = () => {
                 </div>
                 <div className="about__content-text">
                     <p>
-                    I'm {new Date().getFullYear() - 1999} years old, and  
-                    I'm an CS student at Politechnika Częstochowska.
+                    I'm {new Date().getFullYear() - 1999} years old 
+                    CS student at Politechnika Częstochowska.
                     I'm intrested in technology and programming.
                     </p>
                     <ul>
                     <li>My hobbies are: </li>
                     <li>Proggraming,</li>
-                    <li>Reading a books,</li>
+                    <li>Reading books,</li>
                     <li>Learning,</li>
                     <li>Swimming,</li>
                     <li>Playing games (I love rocket league ❤️)</li>

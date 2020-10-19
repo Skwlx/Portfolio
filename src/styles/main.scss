@@ -32,3 +32,9 @@ p{
     z-index: -2;
     opacity: 0.5;
 }
+
+@media (max-width: 730px){
+    .hidden-text{
+        font-size: 2rem;
+    }
+}

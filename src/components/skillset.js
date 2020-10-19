@@ -13,7 +13,7 @@ const SkillSet = () => {
         AOS.init({
             offset: -10
         });
-       // Display(".hidden-skill",["MY", "SKILLS"]);
+        Display(".hidden-skill",["MY", "SKILLS"]);
     })
 
     return(

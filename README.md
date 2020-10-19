@@ -1,3 +1,6 @@
 # Portfolio
 
-This is my personal portfolio.
+Website made in: 
+* React
+* Scss
+* ThreeJs

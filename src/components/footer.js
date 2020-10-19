@@ -8,7 +8,7 @@ import "../styles/components/footer.scss";
 
 const Footer = () => {
     useEffect(() => {
-        //Display(".hidden-contact",["CONTACT","ME"]);
+        Display(".hidden-contact",["CONTACT","ME"]);
         const footerContainer = document.querySelector("footer")
         window.addEventListener("scroll", () => {
             let triggerLine = footerContainer.getBoundingClientRect().top;

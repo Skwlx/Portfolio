@@ -7,7 +7,7 @@ const Jumbo = () =>{
         const jumboTitle = document.querySelector('.jumbotron__title')
         window.addEventListener("scroll", () => {
             let triggerLine = jumboTitle.getBoundingClientRect().top;
-            if(triggerLine >= 200){
+            if(triggerLine >= 100){
                 jumboTitle.style.opacity = 1;
             }
             else{

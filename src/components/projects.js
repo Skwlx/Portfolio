@@ -32,7 +32,9 @@ const Projects = () => {
                 >
                 {projectsData.projects.map(project => (
                     <div className="projects__box__content">
+                        <a href={project.live}>
                         <img className="projects__box__content-image" src={project.image} />
+                        </a>
                         <h3 className="projects__box__content-title">{project.title}</h3>
                         <p className="projects__box__content-text">{project.description}</p>
                         <p className="projects__box__content-text">{project.stack}</p>

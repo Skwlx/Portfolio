@@ -12,7 +12,7 @@ const Footer = () => {
         const footerContainer = document.querySelector("footer")
         window.addEventListener("scroll", () => {
             let triggerLine = footerContainer.getBoundingClientRect().top;
-            if(triggerLine <= 200){
+            if(triggerLine <= 500){
                 footerContainer.style.opacity = 1;
             }
             else{

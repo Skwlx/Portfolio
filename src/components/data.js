@@ -15,11 +15,11 @@ export const upSkills = {
         },
         {
             name: "CSS",
-            level: "I can create layout in Grid, Flexbox. I know the rules of RWD"
+            level: "Good knowledge, I can create layout in Grid, Flexbox. I know the rules of RWD"
         },
         {
             name: "Scss",
-            level: "I'm using this preprocesor in my daily work"
+            level: "Good knowledge, I'm using this preprocesor in my daily work"
         },
         {
             name: "Bootstrap",
@@ -40,7 +40,7 @@ export const downSkills = {
         },
         {
             name: "React",
-            level: "I'm using React with Hooks"
+            level: "Good knowledge, I'm using React with Hooks"
         },
         {
             name: "Redux",

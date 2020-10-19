@@ -9,7 +9,7 @@ const About = () => {
         const aboutContainer = document.querySelector('.about')
         window.addEventListener("scroll", () => {
             let triggerLine = aboutContainer.getBoundingClientRect().top;
-            if(triggerLine <= 200){
+            if(triggerLine <= 300){
                 aboutContainer.style.opacity = 1;
             }
             else{

@@ -8,7 +8,7 @@ import "../styles/components/footer.scss";
 
 const Footer = () => {
     useEffect(() => {
-        Display(".hidden-contact",["CONTACT","ME"]);
+        //Display(".hidden-contact",["CONTACT","ME"]);
         const footerContainer = document.querySelector("footer")
         window.addEventListener("scroll", () => {
             let triggerLine = footerContainer.getBoundingClientRect().top;
@@ -31,21 +31,21 @@ const Footer = () => {
         <a href="https://github.com/Skwlx" className="footer__social-list-icon">
             <FontAwesomeIcon icon={faGithub} />
         </a>
-        <p className="footer__social-list">Skwlx</p>
+        <p className="footer__social-list-info">Skwlx</p>
        </li>
 
        <li>
         <a href="mailto:pawel.slawuta@o2.pl" className="footer__social-list-icon">
             <FontAwesomeIcon icon={faEnvelope} />
         </a>
-        <p>pawel.slawuta@o2.pl</p>
+        <p className="footer__social-list-info">pawel.slawuta@o2.pl</p>
        </li>
 
        <li>
         <a href="https://www.facebook.com/profile.php?id=100005753820598" className="footer__social-list-icon">
             <FontAwesomeIcon icon={faFacebook} />
         </a>
-        <p>Paweł Sławuta</p>
+        <p className="footer__social-list-info">Paweł Sławuta</p>
        </li>
 
        </ul>

@@ -5,7 +5,7 @@ import "../styles/components/about.scss";
 const About = () => {
 
     useEffect(() => {
-        Display(".hidden-about",["ABOUT","ME"]);
+       // Display(".hidden-about",["ABOUT","ME"]);
         const aboutContainer = document.querySelector('.about')
         window.addEventListener("scroll", () => {
             let triggerLine = aboutContainer.getBoundingClientRect().top;

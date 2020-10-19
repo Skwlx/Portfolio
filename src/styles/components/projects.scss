@@ -10,9 +10,9 @@
     width: 100%;
     position: relative;
     padding-top: 50px;
-    &::before{
+    &::after{
         content: "PROJECTS";
-        font-size: 15rem;
+        font-size: 13rem;
         text-shadow: 3px 2px 3px $secondColor;
         color: $baseColor;
         position: absolute;
@@ -63,6 +63,7 @@
 
 .projects__box__content-title{
     margin-top: 30px;
+    margin-bottom: 10px;
     opacity: 0;
     color: $baseColor;
     text-shadow: $stroke;
@@ -74,6 +75,7 @@
     opacity: 0;
     text-shadow: $stroke;
     font-size: 1.4rem;
+    margin-bottom: 10px;
 }
 
 .projects__box__content-icon{
@@ -87,5 +89,35 @@
     }
     &:hover{
         color: darken($baseColor, 20%);
+    }
+}
+
+@media (max-width: 1100px){
+    .projects {
+        &::after{
+            font-size: 8rem;
+        }
+    }
+    .projects__box__content-icon{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 730px){
+    .projects {
+        &::after{
+            font-size: 4rem;
+        }
+    }
+    .projects__box__content-image{
+        width: 540px;
+        filter: none;
+    }
+}
+
+@media (max-width: 560px){
+    .projects__box__content-image{
+        width: 340px;
+        filter: none;
     }
 }

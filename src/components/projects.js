@@ -15,7 +15,7 @@ import "../styles/components/projects.scss";
 const Projects = () => {
 
     useEffect(() =>{
-        Display(".hidden-project",["MY", "PROJECTS"]);
+       // Display(".hidden-project",["MY", "PROJECTS"]);
     })
 
     return(

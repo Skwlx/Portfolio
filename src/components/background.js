@@ -41,7 +41,15 @@ const Background = () => {
             camera.updateProjectionMatrix();
         }
         window.addEventListener('resize', handleResize);
-        window.addEventListener('scroll', ()=>{ scale() });
+        if(window.innerWidth >= 800){
+          window.addEventListener('scroll', ()=>{ scale() });
+        }
+        else{
+          circle.scale.x = 5;
+          circle.scale.y = 5;
+          circle.scale.z = 5;
+
+        }
         animate();
       })
       return(

@@ -1,0 +1,69 @@
+// IMPORTS
+
+@import "../variables.scss";
+@import "../animations/appearText.scss";
+
+// FOOTER STYLES
+
+footer {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: opacity .3s ease-in;
+    &::before{
+        content: "CONTACT";
+        font-size: 15rem;
+        text-shadow: 3px 2px 3px $secondColor;
+        color: $baseColor;
+        position: absolute;
+        opacity: 0.5;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+}
+
+.footer__info{
+    text-align: center;
+}
+
+.footer__header{
+    font-size: 3rem;
+    color: $baseColor;
+    text-shadow: $stroke;
+    margin: 30px;
+}
+
+.footer__social-list{
+    list-style-type: none;
+    li{
+        font-size: 2rem;
+        padding: 30px;
+        p{
+            display: inline;
+            margin-left: 15px;
+            color: $baseColor;
+            text-shadow: $stroke;
+            opacity: 0;
+        }
+    }
+}
+
+.footer__social-list-icon{
+    font-size: 4rem;
+    &:hover ~ p{
+        animation: appearText .6s ease forwards;
+    }
+    color: $secondColor;
+    text-shadow: $stroke;
+    transition: .2s ease;
+    &:visited{
+        color: $secondColor;
+    }
+    &:hover{
+        color: darken($baseColor, 20%);
+    }
+}

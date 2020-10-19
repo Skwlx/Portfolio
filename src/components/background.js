@@ -19,8 +19,7 @@ const Background = () => {
 
         scene.add( circle );
         camera.position.z = 5;
-
-        
+      
         const animate = () => {
           requestAnimationFrame( animate );
           circle.rotation.y += 0.004;

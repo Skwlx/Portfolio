@@ -33,11 +33,11 @@ const About = () => {
                     </p>
                     <ul>
                     <li>My hobbies are: </li>
-                    <li>Proggraming,</li>
+                    <li>Programming,</li>
                     <li>Reading books,</li>
                     <li>Learning,</li>
                     <li>Swimming,</li>
-                    <li>Playing games (I love rocket league ❤️)</li>
+                    <li>Playing games (I love Rocket League ❤️)</li>
                     </ul>
                 </div>
             </div>

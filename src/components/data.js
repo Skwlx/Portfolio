@@ -77,7 +77,7 @@ export const projectsData = {
         },
         {
             title: "Restaurant site",
-            description: "I love mexican food so i made a website about mexican restaurant.",
+            description: "I love mexican food so I made a website about mexican restaurant.",
             stack: "React, SCSS",
             image: restaurantImage,
             code: "https://github.com/Skwlx/RestaurantSite",
@@ -109,7 +109,7 @@ export const projectsData = {
         },
         {
             title: "ExchangeApp",
-            description: "Very simple API app, let's you check the currency rate.",
+            description: "Very simple API app, lets you check the currency rate.",
             stack: "React, SCSS, Javascript",
             image: exchangeImage,
             code: "https://github.com/Skwlx/ExchangeApp",

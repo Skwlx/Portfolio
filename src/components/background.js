@@ -14,7 +14,7 @@ const Background = () => {
         canvasContainer.appendChild( renderer.domElement );
 
         const geometry = new THREE.DodecahedronBufferGeometry( 1, 4 );
-        const material = new THREE.MeshBasicMaterial( { color: 0x00000, wireframe: true } );
+        const material = new THREE.MeshBasicMaterial( { color: 0xd9d9d9, wireframe: true } );
         const circle = new THREE.Mesh( geometry, material );
 
         scene.add( circle );
@@ -22,7 +22,7 @@ const Background = () => {
       
         const animate = () => {
           requestAnimationFrame( animate );
-          circle.rotation.y += 0.004;
+          circle.rotation.y += 0.001;
           circle.rotation.x += 0.001;
           renderer.render( scene, camera );
         };

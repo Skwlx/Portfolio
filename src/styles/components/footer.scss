@@ -32,8 +32,7 @@ footer {
 
 .footer__header{
     font-size: 3rem;
-    color: $baseColor;
-    text-shadow: $stroke;
+    color: $secondColor;
     margin: 30px;
 }
 
@@ -49,6 +48,7 @@ footer {
     margin-left: 15px;
     color: $baseColor;
     text-shadow: $stroke;
+    background-color: $secondColor;
     opacity: 0;
     font-size: 2rem;
 }

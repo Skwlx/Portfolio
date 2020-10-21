@@ -47,6 +47,10 @@ export const downSkills = {
             level: "Basic knowledge, currently learning"
         },
         {
+            name: "GatsbyJS",
+            level: "Used in one project with strapi"
+        },
+        {
             name: "Node",
             level: "Basic knowledge. Once used with ExpressJS"
         },
@@ -77,7 +81,7 @@ export const projectsData = {
         },
         {
             title: "Restaurant site",
-            description: "I love mexican food so I made a website about mexican restaurant.",
+            description: "I love Mexican food so I made a website about Mexican restaurant.",
             stack: "React, SCSS",
             image: restaurantImage,
             code: "https://github.com/Skwlx/RestaurantSite",

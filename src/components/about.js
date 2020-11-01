@@ -37,7 +37,7 @@ const About = () => {
                     <li>Reading books,</li>
                     <li>Learning,</li>
                     <li>Swimming,</li>
-                    <li>Playing games (I love Rocket League ❤️)</li>
+                    <li>Playing games (I love Rocket League <span role="img">❤️</span>)</li>
                     </ul>
                 </div>
             </div>

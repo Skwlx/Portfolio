@@ -65,7 +65,7 @@
         width: 100%;
         height: 2px;
         display: block;
-        background-color: $secondColor;
+        background-color: lighten($secondColor, 50%);
         transform: scale(0);
         margin: auto;
     }

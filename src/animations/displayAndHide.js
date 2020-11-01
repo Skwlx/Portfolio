@@ -5,7 +5,6 @@ const displayAndHide = (nameOfClass, args) =>{
         const spanContent = [args[0], args[1]];
         let windowWidth = window.innerWidth - 175;
         let windowHeight = window.innerHeight - 100;
-        console.log(window.innerWidth - 200)
         let leftPos = Math.floor(Math.random() * (windowWidth + 10));
         let topPos = Math.floor(Math.random() * (windowHeight + 10));
         span.textContent = spanContent[Math.floor(Math.random() * 2)];

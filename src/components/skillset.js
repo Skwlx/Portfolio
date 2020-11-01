@@ -22,7 +22,7 @@ const SkillSet = () => {
             <div className="skillSet__box">
                 <ul className="skillSet__box-list" data-aos="fade-down">
                     {upSkills.skills.map(skill =>(
-                        <li>
+                        <li key={skill.id}>
                         <span className="skillSet__box-list__title">{skill.name}</span>
                         <p className="skilSet__box-list__content">{skill.level}</p>
                         </li>

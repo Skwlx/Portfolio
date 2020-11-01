@@ -31,9 +31,9 @@ const Projects = () => {
                 fadeOutAnimation={true}
                 >
                 {projectsData.projects.map(project => (
-                    <div className="projects__box__content">
+                    <div className="projects__box__content" key={project.id}>
                         <a href={project.live}>
-                        <img className="projects__box__content-image" src={project.image} />
+                        <img className="projects__box__content-image" src={project.image} alt={project.title} />
                         </a>
                         <h3 className="projects__box__content-title">{project.title}</h3>
                         <p className="projects__box__content-text">{project.description}</p>

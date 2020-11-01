@@ -1,0 +1,23 @@
+// IMPORTS
+
+@import "../variables.scss";
+
+//HEADER STYLES 
+
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__dark-mode-button{
+    border: 2px solid $secondColor;
+    border-radius: 10px;
+    background-color: $secondColor;
+    font-size: 1.3rem;
+    margin: 10px;
+    color: $baseColor;
+    transition: .2s ease-in-out;
+}

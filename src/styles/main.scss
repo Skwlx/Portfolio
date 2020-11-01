@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    transition: .3s ease;
 }
 html{
     font-family: 'Rubik', sans-serif;
@@ -32,6 +33,33 @@ p{
     z-index: -2;
     opacity: 0.5;
 }
+
+.dark-mode{
+    background-color: black;
+    *{
+        color: white;
+    }
+    h1,h2{
+        color: white;
+    }
+    .skillSet__box-list {
+        li{
+            &:hover  .skilSet__box-list__content{
+                color: $baseColor;
+                opacity: 1;
+            }
+    
+            &:hover .skillSet__box-list__title{
+                color: $baseColor;
+            }
+        }
+    }
+    .header__dark-mode-button{
+        background-color: $baseColor;
+        color: $secondColor;
+    }
+}
+
 
 @media (max-width: 730px){
     .hidden-text{

@@ -75,7 +75,9 @@
     opacity: 0;
     text-shadow: $stroke;
     font-size: 1.4rem;
+    margin: auto;
     margin-bottom: 10px;
+    max-width: 550px;
 }
 
 .projects__box__content-icon{

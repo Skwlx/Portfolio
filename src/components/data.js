@@ -5,6 +5,7 @@ import carPickerImage from "../images/picker.png";
 import flappitImage from "../images/flapit.png";
 import tictactoeImage from "../images/tictactoe.png";
 import exchangeImage from "../images/exchange.png";
+import bindly from "../images/bindly.png";
 
 
 export const upSkills = {
@@ -75,7 +76,16 @@ export const downSkills = {
 export const projectsData = {
     projects: [
         {
-            id: 12,
+            id: 13,
+            title: "Bindly widget",
+            description: "One of my commercial projects. I created styles for the Bindly widget in Scss and added some changes in js files.",
+            stack: "Html, Scss, Js",
+            image: bindly,
+            code: "",
+            live: "https://gyminstructor.netlify.app"
+        },
+        {
+            id: 13,
             title: "Gym Instructor",
             description: "Template webiste made for practice.",
             stack: "GatsbyJS, GraphQl, SCSS",
@@ -84,7 +94,7 @@ export const projectsData = {
             live: "https://gyminstructor.netlify.app"
         },
         {
-            id: 13,
+            id: 14,
             title: "BookApi",
             description: "Website made for searching books.",
             stack: "React, Google Books API, SCSS",
@@ -93,7 +103,7 @@ export const projectsData = {
             live: "https://skwlx.github.io/BookApi/"
         },
         {
-            id: 14,
+            id: 15,
             title: "Restaurant site",
             description: "I love Mexican food so I made a website about Mexican restaurant.",
             stack: "React, SCSS",
@@ -102,7 +112,7 @@ export const projectsData = {
             live: "https://skwlx.github.io/RestaurantSite/"
         },
         {
-            id: 15,
+            id: 16,
             title: "Car picker",
             description: "App made for recrutation process.",
             stack: "React, Redux, SCSS",
@@ -111,7 +121,7 @@ export const projectsData = {
             live: "https://car-picker.netlify.app"
         },
         {
-            id: 16,
+            id: 17,
             title: "Flappit",
             description: "My friend made this game, so I made a website for him (Just for fun project).",
             stack: "Html, CSS",
@@ -120,7 +130,7 @@ export const projectsData = {
             live: "https://snakerrek.github.io/Flappit/"
         },
         {
-            id: 17,
+            id: 18,
             title: "Tictactoe",
             description: "My first ever project made, simple game.",
             stack: "Html, CSS, Javascript",
@@ -129,7 +139,7 @@ export const projectsData = {
             live: "https://skwlx.github.io/Tictactoe/"
         },
         {
-            id: 18,
+            id: 19,
             title: "ExchangeApp",
             description: "Very simple API app, lets you check the currency rate.",
             stack: "React, SCSS, Javascript",

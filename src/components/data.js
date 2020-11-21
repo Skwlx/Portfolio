@@ -82,7 +82,7 @@ export const projectsData = {
             stack: "Html, Scss, Js",
             image: bindly,
             code: "",
-            live: "https://gyminstructor.netlify.app"
+            live: "https://www.bindly.pl"
         },
         {
             id: 13,

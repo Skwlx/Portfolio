@@ -1,33 +1,32 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.2a1da13f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.bf9c1dc0.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.bf9c1dc0.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.7e660001.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7e660001.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
     "static/css/2.a17fd7a1.chunk.css": "/Portfolio/static/css/2.a17fd7a1.chunk.css",
-    "static/js/2.943f708d.chunk.js": "/Portfolio/static/js/2.943f708d.chunk.js",
-    "static/js/2.943f708d.chunk.js.map": "/Portfolio/static/js/2.943f708d.chunk.js.map",
+    "static/js/2.fb1bcee5.chunk.js": "/Portfolio/static/js/2.fb1bcee5.chunk.js",
+    "static/js/2.fb1bcee5.chunk.js.map": "/Portfolio/static/js/2.fb1bcee5.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.356ea8dbeb58b0e4bbd2e00ceb188396.js": "/Portfolio/precache-manifest.356ea8dbeb58b0e4bbd2e00ceb188396.js",
+    "precache-manifest.8093a50e57a1a66659efb0a6ebcce579.js": "/Portfolio/precache-manifest.8093a50e57a1a66659efb0a6ebcce579.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.a17fd7a1.chunk.css.map": "/Portfolio/static/css/2.a17fd7a1.chunk.css.map",
     "static/css/main.2a1da13f.chunk.css.map": "/Portfolio/static/css/main.2a1da13f.chunk.css.map",
-    "static/js/2.943f708d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.943f708d.chunk.js.LICENSE.txt",
+    "static/js/2.fb1bcee5.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.fb1bcee5.chunk.js.LICENSE.txt",
     "static/media/bindly.png": "/Portfolio/static/media/bindly.b172853a.png",
     "static/media/book.png": "/Portfolio/static/media/book.27b18f8c.png",
+    "static/media/brochacki.png": "/Portfolio/static/media/brochacki.aba00db8.png",
     "static/media/exchange.png": "/Portfolio/static/media/exchange.cb1b190d.png",
     "static/media/flapit.png": "/Portfolio/static/media/flapit.088a2f6e.png",
     "static/media/gym.png": "/Portfolio/static/media/gym.27577615.png",
-    "static/media/picker.png": "/Portfolio/static/media/picker.7b9cd50e.png",
-    "static/media/restaurant.png": "/Portfolio/static/media/restaurant.b855ccd2.png",
-    "static/media/tictactoe.png": "/Portfolio/static/media/tictactoe.766b1f56.png"
+    "static/media/picker.png": "/Portfolio/static/media/picker.7b9cd50e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
     "static/css/2.a17fd7a1.chunk.css",
-    "static/js/2.943f708d.chunk.js",
+    "static/js/2.fb1bcee5.chunk.js",
     "static/css/main.2a1da13f.chunk.css",
-    "static/js/main.bf9c1dc0.chunk.js"
+    "static/js/main.7e660001.chunk.js"
   ]
 }

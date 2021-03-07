@@ -1,32 +1,31 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2a1da13f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.7e660001.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.7e660001.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.6b0d59c1.chunk.css",
+    "main.js": "/Portfolio/static/js/main.d8ded032.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d8ded032.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
     "static/css/2.a17fd7a1.chunk.css": "/Portfolio/static/css/2.a17fd7a1.chunk.css",
-    "static/js/2.fb1bcee5.chunk.js": "/Portfolio/static/js/2.fb1bcee5.chunk.js",
-    "static/js/2.fb1bcee5.chunk.js.map": "/Portfolio/static/js/2.fb1bcee5.chunk.js.map",
+    "static/js/2.8934665e.chunk.js": "/Portfolio/static/js/2.8934665e.chunk.js",
+    "static/js/2.8934665e.chunk.js.map": "/Portfolio/static/js/2.8934665e.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.8093a50e57a1a66659efb0a6ebcce579.js": "/Portfolio/precache-manifest.8093a50e57a1a66659efb0a6ebcce579.js",
+    "precache-manifest.b578ec6c9aa594caebe7cba05a60b831.js": "/Portfolio/precache-manifest.b578ec6c9aa594caebe7cba05a60b831.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.a17fd7a1.chunk.css.map": "/Portfolio/static/css/2.a17fd7a1.chunk.css.map",
-    "static/css/main.2a1da13f.chunk.css.map": "/Portfolio/static/css/main.2a1da13f.chunk.css.map",
-    "static/js/2.fb1bcee5.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.fb1bcee5.chunk.js.LICENSE.txt",
+    "static/css/main.6b0d59c1.chunk.css.map": "/Portfolio/static/css/main.6b0d59c1.chunk.css.map",
+    "static/js/2.8934665e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8934665e.chunk.js.LICENSE.txt",
     "static/media/bindly.png": "/Portfolio/static/media/bindly.b172853a.png",
     "static/media/book.png": "/Portfolio/static/media/book.27b18f8c.png",
     "static/media/brochacki.png": "/Portfolio/static/media/brochacki.aba00db8.png",
-    "static/media/exchange.png": "/Portfolio/static/media/exchange.cb1b190d.png",
-    "static/media/flapit.png": "/Portfolio/static/media/flapit.088a2f6e.png",
     "static/media/gym.png": "/Portfolio/static/media/gym.27577615.png",
+    "static/media/melodypark.png": "/Portfolio/static/media/melodypark.96416837.png",
     "static/media/picker.png": "/Portfolio/static/media/picker.7b9cd50e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
     "static/css/2.a17fd7a1.chunk.css",
-    "static/js/2.fb1bcee5.chunk.js",
-    "static/css/main.2a1da13f.chunk.css",
-    "static/js/main.7e660001.chunk.js"
+    "static/js/2.8934665e.chunk.js",
+    "static/css/main.6b0d59c1.chunk.css",
+    "static/js/main.d8ded032.chunk.js"
   ]
 }

@@ -33,6 +33,11 @@ export const upSkills = {
       name: "SQL",
       level: "Basic knowledge",
     },
+    {
+      id: 23,
+      name: "C#",
+      level: "Basic knowledge, currently learning",
+    },
   ],
 };
 
@@ -77,7 +82,7 @@ export const projectsData = {
       id: 13,
       title: "MelodyPark",
       description: "Commercial project made for RendPro. ",
-      stack: "Gatsby, Styled Components",
+      stack: "Gatsby, React, Styled Components",
       image: melodyParkImage,
       code: "",
       live: "https://www.melodypark.pl/",
@@ -87,7 +92,7 @@ export const projectsData = {
       title: "Brochacki",
       description:
         "Commercial project made for RendPro. Dynamic website with Strapi as a CMS.",
-      stack: "Gatsby, Styled Components, Strapi",
+      stack: "Gatsby, React, Styled Components, Strapi",
       image: brochackiImage,
       code: "",
       live: "https://brochacki.pl/",

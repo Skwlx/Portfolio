@@ -1,6 +1,6 @@
 # Portfolio
 
-Website made in: 
+Website made with: 
 * React
 * Scss
 * ThreeJs

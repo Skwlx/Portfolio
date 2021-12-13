@@ -1,9 +1,6 @@
-import gymImage from '../images/gym.png';
-import bookImage from '../images/book.png';
-import carPickerImage from '../images/picker.png';
-import brochackiImage from '../images/brochacki.png';
-import melodyParkImage from '../images/melodypark.png';
-import bindly from '../images/bindly.png';
+import brochackiImage from '../images/brochacki.png'
+import melodyParkImage from '../images/melodypark.png'
+import nightyImage from '../images/Nighty.png'
 
 export const upSkills = {
   skills: [
@@ -24,8 +21,8 @@ export const upSkills = {
     },
     {
       id: 4,
-      name: 'Bootstrap',
-      level: 'Basic knowledge',
+      name: 'React Native',
+      level: 'Good knowledge',
     },
     {
       id: 5,
@@ -35,10 +32,10 @@ export const upSkills = {
     {
       id: 23,
       name: 'C#',
-      level: 'Good knowledge',
+      level: 'Basic knowledge',
     },
   ],
-};
+}
 
 export const downSkills = {
   skills: [
@@ -64,7 +61,7 @@ export const downSkills = {
     },
     {
       id: 10,
-      name: 'Node',
+      name: 'NodeJs',
       level: 'Basic knowledge',
     },
     {
@@ -73,14 +70,14 @@ export const downSkills = {
       level: 'Good knowledge',
     },
   ],
-};
+}
 
 export const projectsData = {
   projects: [
     {
       id: 13,
       title: 'MelodyPark',
-      description: 'Commercial project made for RendPro. ',
+      description: 'Static website made for RendPro.',
       stack: 'Gatsby, React, Styled Components',
       image: melodyParkImage,
       code: '',
@@ -89,39 +86,20 @@ export const projectsData = {
     {
       id: 14,
       title: 'Brochacki',
-      description: 'Commercial project made for RendPro. Dynamic website with Strapi as a CMS.',
+      description: 'Dynamic website with Strapi as a CMS.',
       stack: 'Gatsby, React, Styled Components, Strapi',
       image: brochackiImage,
       code: '',
       live: 'https://brochacki.pl/',
     },
     {
-      id: 15,
-      title: 'Bindly widget',
-      description:
-        'One of my commercial projects. I created styles for the Bindly widget in Scss and added some changes in js files.',
-      stack: 'Html, Scss, Js',
-      image: bindly,
+      id: 16,
+      title: 'Nighty',
+      description: 'I have been working on website as well as on administration panel of the application.',
+      stack: 'React, styled-components, html, css',
+      image: nightyImage,
       code: '',
-      live: 'https://www.bindly.pl',
-    },
-    {
-      id: 17,
-      title: 'BookApi',
-      description: 'Website made for searching books.',
-      stack: 'React, Google Books API, SCSS',
-      image: bookImage,
-      code: 'https://github.com/Skwlx/BookApi',
-      live: 'https://skwlx.github.io/BookApi/',
-    },
-    {
-      id: 18,
-      title: 'Car picker',
-      description: 'App made for recrutation process.',
-      stack: 'React, Redux, SCSS',
-      image: carPickerImage,
-      code: 'https://github.com/Skwlx/CarPicker',
-      live: 'https://car-picker.netlify.app',
+      live: 'https://nighty.pl/index.html',
     },
   ],
-};
+}

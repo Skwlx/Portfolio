@@ -54,6 +54,11 @@
   }
 }
 
+.about__link {
+  text-decoration: none;  
+  color: $secondColor;
+}
+
 @media (max-width: 1100px) {
   .about {
     &::after {

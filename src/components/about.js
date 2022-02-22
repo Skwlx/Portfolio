@@ -25,15 +25,8 @@ const About = () => {
         </div>
         <div className="about__content-text">
           <p>
-            I'm {new Date().getFullYear() - 1999} years old CS student at Politechnika Częstochowska. I'm intrested in technology and programming.
-          </p>
-          <ul>
-            <li>My hobbies are: </li>
-            <li>Programming,</li>
-            <li>Reading books,</li>
-            <li>Learning,</li>
-            <li>Swimming,</li>
-          </ul>
+            I'm {new Date().getFullYear() - 1999} years old CS student at Politechnika Częstochowska. I'm currently working at <a className='about__link ' href="https://dreamstormstudios.com">DreamStorm Studios</a> as a Junior React Developer.
+          </p>         
         </div>
       </div>
     </div>

@@ -71,35 +71,3 @@ export const downSkills = {
     },
   ],
 }
-
-export const projectsData = {
-  projects: [
-    {
-      id: 13,
-      title: 'MelodyPark',
-      description: 'Static website made for RendPro.',
-      stack: 'Gatsby, React, Styled Components',
-      image: melodyParkImage,
-      code: '',
-      live: 'https://www.melodypark.pl/',
-    },
-    {
-      id: 14,
-      title: 'Brochacki',
-      description: 'Dynamic website with Strapi as a CMS.',
-      stack: 'Gatsby, React, Styled Components, Strapi',
-      image: brochackiImage,
-      code: '',
-      live: 'https://brochacki.pl/',
-    },
-    {
-      id: 16,
-      title: 'Nighty',
-      description: 'I have been working on website as well as on administration panel of the application.',
-      stack: 'React, styled-components, html, css',
-      image: nightyImage,
-      code: '',
-      live: 'https://nighty.pl/index.html',
-    },
-  ],
-}
